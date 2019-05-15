@@ -1,0 +1,8 @@
+type Query {
+  status: Status
+}
+
+type Status {
+  version: String
+  status: Boolean
+}
