@@ -1,5 +1,5 @@
 {
-  "watch": "source",
+  "watch": "src",
   "ext": "ts graphql",
   "ignore": ["src/**/*.spec.ts"],
   "exec": "ts-node -r dotenv/config src/main.ts"
