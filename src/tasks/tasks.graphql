@@ -1,0 +1,14 @@
+type Query {
+  getTasks: [Task]
+}
+
+type Mutation {
+  createTask(title: String, description: String): Task!
+}
+
+type Task {
+  id: ID!
+  title: String!
+  description: String
+  publishedAt: String
+}
